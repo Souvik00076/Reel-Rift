@@ -1,8 +1,8 @@
 import React from 'react'
 import styled from 'styled-components'
-import Menu from './components/Menu'
-import Main from './components/Main'
 import Nav from './components/Nav'
+import { BrowserRouter,Routes,Route } from 'react-router-dom'
+import Home from './pages/Home'
 const Container=styled.div`
     margin:0;
 `
@@ -12,14 +12,13 @@ const Wrapper=styled.div`
 const App = () => {
   return (
     <Container>
+      <BrowserRouter>
         <Nav />
-        <Wrapper>
-        <Menu />
-        <Main />
-        </Wrapper>
-        
+              <Routes>
+                <Route path='/' element={<Home/>}/>
+              </Routes>
+        </BrowserRouter>
     </Container>
   )
 }
-
 export default App

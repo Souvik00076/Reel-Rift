@@ -77,18 +77,8 @@ const MenuItems = ({name,icon}) => {
         <HelpOutlineOutlinedIcon/>
         Help
       </Item>
-      <Item>
-        <HelpOutlineOutlinedIcon/>
-        Help
-      </Item>
-      <Item>
-        <HelpOutlineOutlinedIcon/>
-        Help
-      </Item>
-      <Item>
-        <HelpOutlineOutlinedIcon/>
-        Help
-      </Item>
+      
+      
     </Container>
   )
 }

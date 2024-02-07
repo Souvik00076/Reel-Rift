@@ -1,16 +1,70 @@
 import React from 'react'
 import styled from 'styled-components'
-import Nav from './Nav'
+import Card from './Card'
+
 
 const Container=styled.div`
-    flex:7;
-    background-color:#202020;
+  flex:10;
+  background-color:#202020;
+  padding:10px 6px;
+  display:flex;
+  flex-direction:row;
+  flex-wrap:wrap;
 `
 const Main = () => {
   return (
-    <Container>
-    </Container>
+   <Container>
+     <Card/>
+     <Card/>
+     <Card/>
+     <Card/>
+     <Card/>
+     <Card/>
+     <Card/>
+     <Card/>
+     <Card/>
+     <Card/>
+     <Card/>
+     <Card/>
+     <Card/>
+     <Card/>
+     <Card/>
+     <Card/>
+     <Card/>
+     <Card/>
+     <Card/>
+     <Card/>
+     <Card/>
+     <Card/>
+     <Card/>
+     <Card/>
+     <Card/>
+     <Card/>
+     <Card/>
+     <Card/>
+     <Card/>
+     <Card/>
+     <Card/>
+     <Card/>
+     <Card/>
+     <Card/>
+     <Card/>
+     <Card/>
+     <Card/>
+     <Card/>
+     <Card/>
+     <Card/>
+     <Card/>
+     <Card/>
+     <Card/>
 
+     <Card/>
+     <Card/>
+
+     <Card/>
+     <Card/>
+
+    </Container>
   )
 }
 
