@@ -10,6 +10,7 @@ const Container=styled.div`
   display:flex;
   flex-direction:row;
   flex-wrap:wrap;
+  justify-content:center;
 `
 const Main = () => {
   return (
@@ -57,10 +58,8 @@ const Main = () => {
      <Card/>
      <Card/>
      <Card/>
-
      <Card/>
      <Card/>
-
      <Card/>
      <Card/>
 
