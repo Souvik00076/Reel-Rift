@@ -5,8 +5,10 @@ import Recommendations from '../components/Recommendations'
 
 const Container=styled.div`
  display:flex;
+ background:#101010;
+ align-items:top;
+ padding : 2rem ;
 `
-
 const Video = () => {
   return (
     <Container>

@@ -1,8 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
 import MenuItems from './MenuItems'
-
-
 const Container=styled.div`
     flex:2;
     background-color:#181818;

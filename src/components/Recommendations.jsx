@@ -1,13 +1,36 @@
 import React from 'react'
 import styled from 'styled-components'
+import Card from './Card'
+import RecommendationCard from './RecommendationCard'
 const Container=styled.div`
     flex:4;
-    background:blue;
+    padding-left:2rem;
+`
+const Wrapper=styled.div`
+    display:flex;
+    flex-direction:column;
+    margin:auto;
 `
 const Recommendations = () => {
   return (
     <Container>
-        Recommendations Video
+       <Wrapper>
+        <RecommendationCard/>
+        <RecommendationCard/>
+        <RecommendationCard/>
+        <RecommendationCard/>
+        <RecommendationCard/>
+        <RecommendationCard/>
+        <RecommendationCard/>
+        <RecommendationCard/>
+        <RecommendationCard/>
+        <RecommendationCard/>
+        <RecommendationCard/>
+        <RecommendationCard/>
+        <RecommendationCard/>
+        <RecommendationCard/>
+        
+       </Wrapper>
     </Container>
   )
 }
